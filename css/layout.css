@@ -430,34 +430,24 @@ fieldset[disabled] .btn-theme {
 /*------------------------------------------------------------------
   	[About]
 ------------------------------------------------------------------*/
-img {
-    width: 100%;
-}
+
 .about-section {
 	overflow: hidden;
 	background-color: #F9F9F9;
 }
 
-.about-section img {
-	position: absolute;
-}
-
 .about-me {}
 
 .about-me h2 {
+	margin-top: 30px;
 	padding: 0px 50px;
 }
 
 .about-me p {
-	padding: 50px;
+	padding: 40px;
 	font-size: 15px;
 }
 
-@media only screen and (max-width: 991px) {
-    .about-section img {
-        position: inherit;
-     }
-}
 /*------------------------------------------------------------------
   	[Service]
 ------------------------------------------------------------------*/
