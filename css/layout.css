@@ -23,6 +23,7 @@
   	[The "base.scss" contains basic default element styles
   		(colors, typography, margins & padding).]
 ------------------------------------------------------------------*/
+
 html {
   overflow-x: hidden;
 }
@@ -425,7 +426,37 @@ fieldset[disabled] .btn-theme {
   font-size: 25px;
   color: #fff;
 }
+/*------------------------------------------------------------------
+  	[About]
+------------------------------------------------------------------*/
+img {
+    width: 100%;
+}
+.about-section {
+	overflow: hidden;
+	background-color: #F9F9F9;
+}
 
+.about-section img {
+	position: absolute;
+}
+
+.about-me {}
+
+.about-me h2 {
+	padding: 0px 50px;
+}
+
+.about-me p {
+	padding: 50px;
+	font-size: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+    .about-section img {
+        position: inherit;
+     }
+}
 /*------------------------------------------------------------------
   	[Service]
 ------------------------------------------------------------------*/
