@@ -735,6 +735,7 @@ fieldset[disabled] .btn-theme {
   transition-duration: 400ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  color: #17bed2;
 }
 
 .header .logo-img-active {
@@ -742,8 +743,19 @@ fieldset[disabled] .btn-theme {
   transition-duration: 400ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  color: #17bed2;
 }
 
+h1 span {
+    color: #fff;
+	font-size: 40px;
+	font-weight:500;
+}
+h1 .logo-next {
+    color: #81848f;
+	font-size: 40px;
+	font-weight:500;
+}
 /* Navbar */
 .header .navbar-nav {
   padding-left: 0;
